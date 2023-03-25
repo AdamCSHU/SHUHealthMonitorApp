@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33423.256
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SHUHealthApp.Server", "Server\SHUHealthApp.Server.csproj", "{FC0C5691-D42D-4570-86F5-8CD2390A14A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHUHealthApp.Server", "SHUHealthApp\Server\SHUHealthApp.Server.csproj", "{90E0FB7B-BDB1-4FB0-9A38-2F2DC9F32602}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SHUHealthApp.Client", "Client\SHUHealthApp.Client.csproj", "{AABA7E3D-9E16-496C-AD72-4CFF8E495B5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHUHealthApp.Client", "SHUHealthApp\Client\SHUHealthApp.Client.csproj", "{5E881C7D-BBFC-4256-99E6-53CF8F8A3E25}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SHUHealthApp.Shared", "Shared\SHUHealthApp.Shared.csproj", "{9C0E18CD-CBC5-4EC1-A1BD-F17F14CEC47E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHUHealthApp.Shared", "SHUHealthApp\Shared\SHUHealthApp.Shared.csproj", "{0871BB5B-526C-4231-A601-DCD6D7661DED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,23 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FC0C5691-D42D-4570-86F5-8CD2390A14A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC0C5691-D42D-4570-86F5-8CD2390A14A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC0C5691-D42D-4570-86F5-8CD2390A14A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC0C5691-D42D-4570-86F5-8CD2390A14A4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AABA7E3D-9E16-496C-AD72-4CFF8E495B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AABA7E3D-9E16-496C-AD72-4CFF8E495B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AABA7E3D-9E16-496C-AD72-4CFF8E495B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AABA7E3D-9E16-496C-AD72-4CFF8E495B5F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C0E18CD-CBC5-4EC1-A1BD-F17F14CEC47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C0E18CD-CBC5-4EC1-A1BD-F17F14CEC47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C0E18CD-CBC5-4EC1-A1BD-F17F14CEC47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C0E18CD-CBC5-4EC1-A1BD-F17F14CEC47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90E0FB7B-BDB1-4FB0-9A38-2F2DC9F32602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90E0FB7B-BDB1-4FB0-9A38-2F2DC9F32602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90E0FB7B-BDB1-4FB0-9A38-2F2DC9F32602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90E0FB7B-BDB1-4FB0-9A38-2F2DC9F32602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E881C7D-BBFC-4256-99E6-53CF8F8A3E25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E881C7D-BBFC-4256-99E6-53CF8F8A3E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E881C7D-BBFC-4256-99E6-53CF8F8A3E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E881C7D-BBFC-4256-99E6-53CF8F8A3E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0871BB5B-526C-4231-A601-DCD6D7661DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0871BB5B-526C-4231-A601-DCD6D7661DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0871BB5B-526C-4231-A601-DCD6D7661DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0871BB5B-526C-4231-A601-DCD6D7661DED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E44EA02C-9D6D-4F84-9363-5B9443A69D56}
+		SolutionGuid = {3E11E364-5BC9-4047-9E28-67C14BC53D37}
 	EndGlobalSection
 EndGlobal
