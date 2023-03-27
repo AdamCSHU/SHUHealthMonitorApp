@@ -2,20 +2,20 @@
 {
     public class AccountService
     {
-        private List<Models.UserModel> userList;
+        private List<UserModel> _userAccountList;
 
         public AccountService()
         {
-            userList = new List<Models.UserModel>
+            _userAccountList = new List<UserModel>
             {
-                new Models.UserModel { UserName = "admin", Password = "1234", Role = "administrator" },
-                new Models.UserModel { UserName = "user", Password = "pass", Role = "user" }
+                new UserModel{ UserName = "admin", Password = "admin", Role = "Administrator" },
+                new UserModel{ UserName = "user", Password = "user", Role = "User" }
             };
         }
 
-        public Models.UserModel? GetUserModelByUserName(string userName)
+        public UserModel? GetUserModelByUserName(string userName)
         {
-            return userList.FirstOrDefault(x => x.UserName == userName);
+            return _userAccountList.FirstOrDefault(x => x.UserName == userName);
         }
     }
 }

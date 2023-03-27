@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj": {}
+    "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj": {
+    "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj",
         "projectName": "SHUHealthApp.Shared",
-        "projectPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj",
+        "projectPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj",
         "packagesPath": "C:\\Users\\Eva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eva\\AppData\\Roaming\\NuGet\\NuGet.Config",

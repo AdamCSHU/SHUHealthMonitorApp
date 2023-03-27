@@ -1,6 +1,6 @@
 ﻿using Microsoft.IdentityModel.Tokens;
 using SHUHealthApp.Shared;
-using System;
+
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -12,11 +12,11 @@ namespace SHUHealthApp.Server.Authentication
         public const string JWT_KEY = "JQAaQWkFOng5x4NvmP0G0mBQSc3F4Zux";
         private const int JWT_TOKEN_TIME_MINS = 25;
 
-        private AccountService UserAccountService;
+        private AccountService _userAccountService;
 
         public JWTAuthenticationManager (AccountService userAccountService)
         {
-            UserAccountService = userAccountService;
+            this._userAccountService = userAccountService;
         }
 
         public UserSession? GenerateJWTToken(string userName, string password)
@@ -25,7 +25,7 @@ namespace SHUHealthApp.Server.Authentication
                 return null;
 
             //validates user credentials against the database. 
-            var UserAccount = UserAccountService.GetUserModelByUserName(userName);
+            var UserAccount = _userAccountService.GetUserModelByUserName(userName);
             if (UserAccount == null || UserAccount.Password != password)
                 return null;
 

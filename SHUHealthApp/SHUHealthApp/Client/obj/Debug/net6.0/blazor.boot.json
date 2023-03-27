@@ -7,8 +7,10 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
+      "Blazored.SessionStorage.dll": "sha256-XkZNIC6OGMeHZDbBGnhfc9yXdLIvGa8LlKDd4ZPWkS8=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-iHLDF8B7pfRTW\/hNQ3ctXZN6PEfTsWrDiTyw1fLNMsI=",
       "Microsoft.AspNetCore.Components.dll": "sha256-yMUQKGGiZLCGNw3RJPaqhOJrCJIPYbgmJ81JNAcRoAE=",
+      "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-YZGwjpnGPMGIrOrgZPAxTbO6DPWKLGASzSulY+JLVLw=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-KLb9bb+VZeGmF5nHy9Qh4vpB2VYsD7whNFrRt1EMyAU=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-2MxwOoph3MgGrwXQs6dk1MYKWI7aY76FCRLW3A\/hXIA=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-Zw+8hKvSWqNVTfS96m6AmCqaN9+2k0BcxRJy1Oa\/MCE=",
@@ -197,14 +199,14 @@
       "netstandard.dll": "sha256-REs1\/xYvAzuX2k2Y5p\/5IaM3O\/zaiYSW62pOQBGMrrA=",
       "System.Private.CoreLib.dll": "sha256-Bz7VnNtt03SzAvIN30yx1e25P6SfMdLYIaKIy7ASEnw=",
       "SHUHealthApp.Shared.dll": "sha256-UMRrkjNnkEUPjGli8A+Yv08uh6QTE4fweUuLOALqQOs=",
-      "SHUHealthApp.Client.dll": "sha256-YoNzVja2JYOc75mLtvbmEbjNykjJDIEf5sgbR9Nqkag="
+      "SHUHealthApp.Client.dll": "sha256-DRFLeOtF++uPaSg42Rgin3oVH0xaqZdG2x2w2FZ7baQ="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "SHUHealthApp.Shared.pdb": "sha256-bi7wbQsUwkj9BTIj2IWRBos2lFhzOohfxbNw\/DLobyo=",
-      "SHUHealthApp.Client.pdb": "sha256-oiJJu\/NSqd7D0JVROTmWsqp9m8kREWTvCDyspZmYl3I="
+      "SHUHealthApp.Client.pdb": "sha256-xLSmW3vd\/LWuZ9rBhoxc2r546AOo3JK98jB5m\/0WG9I="
     },
     "runtime": {
       "dotnet.6.0.15.2003buh4w7.js": "sha256-fb2wBZaRp096nChMG9nDNEcW0kW1whA\/kfQNyH+5QpQ=",

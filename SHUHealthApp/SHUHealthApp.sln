@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHUHealthApp.Server", "SHUHealthApp\Server\SHUHealthApp.Server.csproj", "{90E0FB7B-BDB1-4FB0-9A38-2F2DC9F32602}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SHUHealthApp.Server", "SHUHealthApp\Server\SHUHealthApp.Server.csproj", "{90E0FB7B-BDB1-4FB0-9A38-2F2DC9F32602}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHUHealthApp.Client", "SHUHealthApp\Client\SHUHealthApp.Client.csproj", "{5E881C7D-BBFC-4256-99E6-53CF8F8A3E25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SHUHealthApp.Client", "SHUHealthApp\Client\SHUHealthApp.Client.csproj", "{5E881C7D-BBFC-4256-99E6-53CF8F8A3E25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHUHealthApp.Shared", "SHUHealthApp\Shared\SHUHealthApp.Shared.csproj", "{0871BB5B-526C-4231-A601-DCD6D7661DED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SHUHealthApp.Shared", "SHUHealthApp\Shared\SHUHealthApp.Shared.csproj", "{0871BB5B-526C-4231-A601-DCD6D7661DED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,36 +1,33 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using SHUHealthApp.Server.Authentication;
 using SHUHealthApp.Shared;
-using SHUHealthApp.Server.Authentication;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 
-namespace SHUHealthApp.Server.Controllers
+namespace BlazorWasmAuthenticationAndAuthorization.Server.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class AccountController : ControllerBase
     {
+        private AccountService _userAccountService;
 
-        private AccountService UserAccountService;
-
-        public AccountController (AccountService userAccountService)
+        public AccountController(AccountService userAccountService)
         {
-            userAccountService = UserAccountService;
+            _userAccountService = userAccountService;
         }
-        
+
         [HttpPost]
-        [Route("/Signin")]
+        [Route("signin")]
         [AllowAnonymous]
-
-        public ActionResult<UserSession> Signin([FromBody] SigninRequest signinRequest)
+        public ActionResult<UserSession> Signin([FromBody] SigninRequest loginRequest)
         {
-            var JwtAuthenticationManager = new JWTAuthenticationManager(UserAccountService);
-            var UserSession = JwtAuthenticationManager.GenerateJWTToken(signinRequest.UserName, signinRequest.Password);
-
-            if (UserSession is null)
+            var jwtAuthenticationManager = new JWTAuthenticationManager(_userAccountService);
+            var userSession = jwtAuthenticationManager.GenerateJWTToken(loginRequest.UserName, loginRequest.Password);
+            if (userSession is null)
                 return Unauthorized();
             else
-                return UserSession;
+                return userSession;
         }
     }
 }

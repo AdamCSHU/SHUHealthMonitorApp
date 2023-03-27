@@ -1,0 +1,51 @@
+﻿@page "/signin"
+@using SHUHealthApp.Client.Authentication
+@using SHUHealthApp.Shared
+@using System.Net
+@inject HttpClient httpClient
+@inject IJSRuntime js
+@inject AuthenticationStateProvider authenticationProvider
+@inject NavigationManager navManager
+
+<h3>SignIn</h3>
+
+<div class="row">
+    <div class="col-lg-4 offset-lg-4 pt-4 pb-4 border">
+        <div class="mb-3 text-center">
+            <h3>LOGIN</h3>
+        </div>
+        <div class="mb-3">
+            <label>User Name</label>
+            <input @bind="signinRequest.UserName" class="form-control" placeholder="User Name" />
+        </div>
+        <div class="mb-3">
+            <label>Password</label>
+            <input @bind="signinRequest.Password" type="password" class="form-control" placeholder="Password" />
+        </div>
+        <div class="mb-3 d-grid gap-2">
+            <button @onclick="Auth" class="btn btn-primary">Login</button>
+        </div>
+    </div>
+</div>
+
+@code {
+    private SigninRequest signinRequest = new SigninRequest();
+
+    private async Task Auth()
+    {
+        var signinResponse = await httpClient.PostAsJsonAsync<SigninRequest>("/api/account/Signin", signinRequest);
+
+        if (signinResponse.IsSuccessStatusCode)
+        {
+            var userSession = await signinResponse.Content.ReadFromJsonAsync<UserSession>();
+            var customAuthProvider = (CustomAuthenticationStateProvider)authenticationProvider;
+            await customAuthProvider.UpdateAuthenticationState(userSession);
+            navManager.NavigateTo("/", true);
+        }
+        else if (signinResponse.StatusCode == HttpStatusCode.Unauthorized)
+        {
+            await js.InvokeVoidAsync("ALERT", "INVALID USERNAME OR PASSWORD DETECTED");
+            return;
+        }
+    }
+}

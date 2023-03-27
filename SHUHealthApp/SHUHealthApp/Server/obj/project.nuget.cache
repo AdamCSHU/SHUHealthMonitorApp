@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "EXvt+b1AJqGdPM0P2XsiOXjhVtbZyBrrs9cpRejKiuLcgcLOhmmTZm0l4OwttMIxhpnE7QnSQVCnmhDlNZ4/Og==",
+  "dgSpecHash": "KkGopdA9q/TBdtcvue23lMi0IcxySX5F2FZaIpVlgzOP296cL+65VSU+f29LxvA13YkACt1lhKNDffJNDDnv8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Server\\SHUHealthApp.Server.csproj",
+  "projectFilePath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Server\\SHUHealthApp.Server.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Eva\\.nuget\\packages\\blazored.sessionstorage\\2.2.0\\blazored.sessionstorage.2.2.0.nupkg.sha512",
     "C:\\Users\\Eva\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.12\\microsoft.aspnetcore.authentication.jwtbearer.6.0.12.nupkg.sha512",
     "C:\\Users\\Eva\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.15\\microsoft.aspnetcore.authorization.6.0.15.nupkg.sha512",
     "C:\\Users\\Eva\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.15\\microsoft.aspnetcore.components.6.0.15.nupkg.sha512",
     "C:\\Users\\Eva\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.15\\microsoft.aspnetcore.components.analyzers.6.0.15.nupkg.sha512",
+    "C:\\Users\\Eva\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.12\\microsoft.aspnetcore.components.authorization.6.0.12.nupkg.sha512",
     "C:\\Users\\Eva\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.15\\microsoft.aspnetcore.components.forms.6.0.15.nupkg.sha512",
     "C:\\Users\\Eva\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.15\\microsoft.aspnetcore.components.web.6.0.15.nupkg.sha512",
     "C:\\Users\\Eva\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.15\\microsoft.aspnetcore.components.webassembly.6.0.15.nupkg.sha512",

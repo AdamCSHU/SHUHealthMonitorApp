@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Server\\SHUHealthApp.Server.csproj": {}
+    "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Server\\SHUHealthApp.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Client\\SHUHealthApp.Client.csproj": {
+    "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Client\\SHUHealthApp.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Client\\SHUHealthApp.Client.csproj",
+        "projectUniqueName": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Client\\SHUHealthApp.Client.csproj",
         "projectName": "SHUHealthApp.Client",
-        "projectPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Client\\SHUHealthApp.Client.csproj",
+        "projectPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Client\\SHUHealthApp.Client.csproj",
         "packagesPath": "C:\\Users\\Eva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Client\\obj\\",
+        "outputPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj": {
-                "projectPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj"
+              "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj": {
+                "projectPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj"
               }
             }
           }
@@ -44,6 +44,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Blazored.SessionStorage": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[6.0.15, )"
@@ -85,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Server\\SHUHealthApp.Server.csproj": {
+    "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Server\\SHUHealthApp.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Server\\SHUHealthApp.Server.csproj",
+        "projectUniqueName": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Server\\SHUHealthApp.Server.csproj",
         "projectName": "SHUHealthApp.Server",
-        "projectPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Server\\SHUHealthApp.Server.csproj",
+        "projectPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Server\\SHUHealthApp.Server.csproj",
         "packagesPath": "C:\\Users\\Eva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Server\\obj\\",
+        "outputPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -109,11 +117,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Client\\SHUHealthApp.Client.csproj": {
-                "projectPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Client\\SHUHealthApp.Client.csproj"
+              "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Client\\SHUHealthApp.Client.csproj": {
+                "projectPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Client\\SHUHealthApp.Client.csproj"
               },
-              "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj": {
-                "projectPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj"
+              "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj": {
+                "projectPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj"
               }
             }
           }
@@ -168,14 +176,14 @@
         }
       }
     },
-    "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj": {
+    "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj",
         "projectName": "SHUHealthApp.Shared",
-        "projectPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj",
+        "projectPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Shared\\SHUHealthApp.Shared.csproj",
         "packagesPath": "C:\\Users\\Eva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\Draft development\\SHUHealthApp\\SHUHealthApp\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthApp\\SHUHealthApp\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eva\\AppData\\Roaming\\NuGet\\NuGet.Config",
