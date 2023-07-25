@@ -1,0 +1,17 @@
+﻿@page "/"
+@using SHUHealthMonitor.Server
+<PageTitle>Home</PageTitle>
+
+<h1>Welcome to the SHU health system.</h1>
+
+<p>This system is used to keep track of patients currently under care from a medical professional. This system is designed solely for use by medical professionals and a select few patients to monitor and see their health statistics.\n</p>
+<p>therefore, you are unable to register. You must ask a system admin to register an account for you.</p>
+
+
+<AuthorizeView Policy="@Policies.IsAdmin">
+    <p>You are currently browsing as an administrator</p>
+</AuthorizeView>
+
+<div>
+
+</div>

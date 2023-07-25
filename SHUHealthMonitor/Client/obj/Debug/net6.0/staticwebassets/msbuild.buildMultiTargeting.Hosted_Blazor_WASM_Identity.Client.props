@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Hosted_Blazor_WASM_Identity.Client.props" />
+</Project>

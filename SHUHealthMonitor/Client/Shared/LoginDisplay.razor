@@ -1,0 +1,17 @@
+﻿<AuthorizeView Policy="@Policies.IsUser">
+    <p>you are currently browsing as a normal user.</p>
+</AuthorizeView>
+<AuthorizeView Policy="@Policies.IsAdmin">
+    <p>You are currently browsing as an administrator.</p>
+</AuthorizeView>
+
+<AuthorizeView>
+    <Authorized>
+        Hello, @context.User.Identity.Name!
+        <a href="/LogOut">Log out</a>
+    </Authorized>
+    <NotAuthorized>
+        <a href="/Register">Register</a>
+        <a href="/Login">Log in</a>
+    </NotAuthorized>
+</AuthorizeView>

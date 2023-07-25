@@ -1,0 +1,12 @@
+M:\Downloads\Hosted_Blazor_WASM_Identity-master\Hosted_Blazor_WASM_Identity-master\SHUHealthMonitor\Shared\bin\Release\net7.0\SHUHealthMonitor.Shared.deps.json
+M:\Downloads\Hosted_Blazor_WASM_Identity-master\Hosted_Blazor_WASM_Identity-master\SHUHealthMonitor\Shared\bin\Release\net7.0\SHUHealthMonitor.Shared.dll
+M:\Downloads\Hosted_Blazor_WASM_Identity-master\Hosted_Blazor_WASM_Identity-master\SHUHealthMonitor\Shared\bin\Release\net7.0\SHUHealthMonitor.Shared.pdb
+M:\Downloads\Hosted_Blazor_WASM_Identity-master\Hosted_Blazor_WASM_Identity-master\SHUHealthMonitor\Shared\obj\Release\net7.0\SHUHealthMonitor.Shared.csproj.AssemblyReference.cache
+M:\Downloads\Hosted_Blazor_WASM_Identity-master\Hosted_Blazor_WASM_Identity-master\SHUHealthMonitor\Shared\obj\Release\net7.0\SHUHealthMonitor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+M:\Downloads\Hosted_Blazor_WASM_Identity-master\Hosted_Blazor_WASM_Identity-master\SHUHealthMonitor\Shared\obj\Release\net7.0\SHUHealthMonitor.Shared.AssemblyInfoInputs.cache
+M:\Downloads\Hosted_Blazor_WASM_Identity-master\Hosted_Blazor_WASM_Identity-master\SHUHealthMonitor\Shared\obj\Release\net7.0\SHUHealthMonitor.Shared.AssemblyInfo.cs
+M:\Downloads\Hosted_Blazor_WASM_Identity-master\Hosted_Blazor_WASM_Identity-master\SHUHealthMonitor\Shared\obj\Release\net7.0\SHUHealthMonitor.Shared.csproj.CoreCompileInputs.cache
+M:\Downloads\Hosted_Blazor_WASM_Identity-master\Hosted_Blazor_WASM_Identity-master\SHUHealthMonitor\Shared\obj\Release\net7.0\SHUHealthMonitor.Shared.dll
+M:\Downloads\Hosted_Blazor_WASM_Identity-master\Hosted_Blazor_WASM_Identity-master\SHUHealthMonitor\Shared\obj\Release\net7.0\refint\SHUHealthMonitor.Shared.dll
+M:\Downloads\Hosted_Blazor_WASM_Identity-master\Hosted_Blazor_WASM_Identity-master\SHUHealthMonitor\Shared\obj\Release\net7.0\SHUHealthMonitor.Shared.pdb
+M:\Downloads\Hosted_Blazor_WASM_Identity-master\Hosted_Blazor_WASM_Identity-master\SHUHealthMonitor\Shared\obj\Release\net7.0\ref\SHUHealthMonitor.Shared.dll

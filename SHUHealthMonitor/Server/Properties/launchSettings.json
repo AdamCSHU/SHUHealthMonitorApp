@@ -1,0 +1,26 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "launchBrowser": true,
+      "launchUrl": "https://localhost:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "https://localhost:5001;http://localhost:5000"
+      },
+      "distributionName": ""
+    },
+    "Profile 1": {
+      "commandName": "Executable",
+      "executablePath": "M:\\Downloads\\Hosted_Blazor_WASM_Identity-master\\Hosted_Blazor_WASM_Identity-master\\SHUHealthMonitor\\Server\\SHUHealthMonitor.Server.csproj"
+    },
+    "Profile 2": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:5000"
+    }
+  }
+}

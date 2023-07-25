@@ -1,0 +1,74 @@
+﻿@*
+
+
+    @page "/fetchpatientdetails"
+    @using SHUHealthMonitor.Server.Models;
+    @using SHUHealthMonitor.Shared.Models
+    @inject HttpClient Http
+    <h1>Patient data</h1>
+    <p>Details of all patients</p>
+    <div class="row">
+        <div class="col-md-6">
+            <a href='/user/add' class="btn btn-primary" role="button">
+                <i class="fas fa-user-plus"></i>
+                Add User
+            </a>
+        </div>
+        <div class="input-group col">
+            <input type="text" class="form-control" placeholder="Search user by name"
+                   @bind="SearchString" @bind:event="oninput" @onkeyup="FilterUser" />
+            @if (SearchString.Length > 0)
+            {
+                <div class="input-group-append">
+                    <button class="btn btn-danger" @onclick="ResetSearch">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            }
+        </div>
+    </div>
+    <br />
+    @if (patientList == null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <table class="table table-striped align-middle table-bordered">
+            <thead class="table-success">
+                <tr>
+                    <th>FirstName</th>
+                    <th>SecondName</th>
+                    <th>Age</th>
+                    <th>DOB</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var patient in patientList)
+                {
+                    <tr>
+                        <td>@patient.FirstName</td>
+                        <td>@patient.LastName</td>
+                        <td>@patient.age</td>
+                        <td>@patient.DOB</td>
+                        <td>@patient.Address</td>
+                        <td>
+                            <a href='/patient/edit/@patient.FirstName' class="btn btn-outline-dark" role="button">
+                                Edit
+                            </a>
+                            <a href='/patioent/delete/@patient.FirstName' class="btn btn-outline-danger" role="button">
+                                Delete
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+    }
+    @code {
+
+    }
+
+*@
