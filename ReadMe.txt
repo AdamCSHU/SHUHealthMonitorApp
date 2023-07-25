@@ -4,4 +4,4 @@ I have tried my damnest to complete this, and i feel ok with my end result, it i
 Much of the system is there in code but my not work in actuality. 
 
 Link to the Github Repo: https://github.com/AdamCSHU/SHUHealthMonitorApp
-link to the demo video: 
+link to the demo video: https://youtu.be/9CZ_x0JNLyk
