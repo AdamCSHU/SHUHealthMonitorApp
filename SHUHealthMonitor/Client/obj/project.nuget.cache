@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LDqHZ9OR3tNXB762KeY2c8lOv5aWmBnF8ZUtZh/2tQ5yNlu7m1xo1vwiEXU9oYDKNAVN5lMg4f6HEKlQytYb0w==",
+  "dgSpecHash": "8Yok4ItvjXXSveFG2hVP7FE6zgpaUZ7Su4Nbh0C9SyF1RaPSTY0c3fTodCLMrPY1dIb8pX4Rt/xkuAYnfEQRuw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eva\\Desktop\\SHUHealthMonitor\\SHUHealthMonitor\\SHUHealthMonitor\\Client\\SHUHealthMonitor.Client.csproj",
+  "projectFilePath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthMonitor\\Client\\SHUHealthMonitor.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eva\\.nuget\\packages\\blazored.localstorage\\4.3.0\\blazored.localstorage.4.3.0.nupkg.sha512",
     "C:\\Users\\Eva\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512",

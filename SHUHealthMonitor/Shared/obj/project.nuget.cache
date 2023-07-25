@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8vZI09FnGXbWcFKIvm7XkamYgLf3Isc2QwibI7F5F6fXBp9bZLTiejsBLvOkJTy5IRmvLs1I13ZsrnEByxBP8w==",
+  "dgSpecHash": "Z+q+BPFJmYa7c9NCiXufssf2kYVaz0k0uUlMi6UraKsW0NeDBGzikqXXm0+yxDrhdiBzYDKJlp/+DWw1TgbuKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Eva\\Desktop\\SHUHealthMonitor\\SHUHealthMonitor\\SHUHealthMonitor\\Shared\\SHUHealthMonitor.Shared.csproj",
+  "projectFilePath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthMonitor\\Shared\\SHUHealthMonitor.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Eva\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.9\\microsoft.aspnetcore.authorization.7.0.9.nupkg.sha512",
     "C:\\Users\\Eva\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.9\\microsoft.aspnetcore.components.7.0.9.nupkg.sha512",

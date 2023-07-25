@@ -2038,11 +2038,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eva\\Desktop\\SHUHealthMonitor\\SHUHealthMonitor\\SHUHealthMonitor\\Client\\SHUHealthMonitor.Client.csproj",
+      "projectUniqueName": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthMonitor\\Client\\SHUHealthMonitor.Client.csproj",
       "projectName": "SHUHealthMonitor.Client",
-      "projectPath": "C:\\Users\\Eva\\Desktop\\SHUHealthMonitor\\SHUHealthMonitor\\SHUHealthMonitor\\Client\\SHUHealthMonitor.Client.csproj",
+      "projectPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthMonitor\\Client\\SHUHealthMonitor.Client.csproj",
       "packagesPath": "C:\\Users\\Eva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eva\\Desktop\\SHUHealthMonitor\\SHUHealthMonitor\\SHUHealthMonitor\\Client\\obj\\",
+      "outputPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthMonitor\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Eva\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2059,8 +2059,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Eva\\Desktop\\SHUHealthMonitor\\SHUHealthMonitor\\SHUHealthMonitor\\Shared\\SHUHealthMonitor.Shared.csproj": {
-              "projectPath": "C:\\Users\\Eva\\Desktop\\SHUHealthMonitor\\SHUHealthMonitor\\SHUHealthMonitor\\Shared\\SHUHealthMonitor.Shared.csproj"
+            "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthMonitor\\Shared\\SHUHealthMonitor.Shared.csproj": {
+              "projectPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthMonitor\\Shared\\SHUHealthMonitor.Shared.csproj"
             }
           }
         }

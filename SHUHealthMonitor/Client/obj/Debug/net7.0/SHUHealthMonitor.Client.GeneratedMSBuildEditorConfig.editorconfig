@@ -9,61 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = SHUHealthMonitor.Client
 build_property.RootNamespace = SHUHealthMonitor.Client
-build_property.ProjectDir = C:\Users\Eva\Desktop\SHUHealthMonitor\SHUHealthMonitor\SHUHealthMonitor\Client\
+build_property.ProjectDir = C:\Users\Eva\Documents\University\Computer Science Year 3\Semester 2\FInal Year Project\SHU-Health-App-FYP\SHUHealthMonitor\Client\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Eva\Desktop\SHUHealthMonitor\SHUHealthMonitor\SHUHealthMonitor\Client
+build_property.MSBuildProjectDirectory = C:\Users\Eva\Documents\University\Computer Science Year 3\Semester 2\FInal Year Project\SHU-Health-App-FYP\SHUHealthMonitor\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Eva/Desktop/SHUHealthMonitor/SHUHealthMonitor/SHUHealthMonitor/Client/App.razor]
+[C:/Users/Eva/Documents/University/Computer Science Year 3/Semester 2/FInal Year Project/SHU-Health-App-FYP/SHUHealthMonitor/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eva/Desktop/SHUHealthMonitor/SHUHealthMonitor/SHUHealthMonitor/Client/Pages/Admin/PatientDetails.razor]
+[C:/Users/Eva/Documents/University/Computer Science Year 3/Semester 2/FInal Year Project/SHU-Health-App-FYP/SHUHealthMonitor/Client/Pages/Admin/PatientDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cUGF0aWVudERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eva/Desktop/SHUHealthMonitor/SHUHealthMonitor/SHUHealthMonitor/Client/Pages/Admin/ViewPatients.razor]
+[C:/Users/Eva/Documents/University/Computer Science Year 3/Semester 2/FInal Year Project/SHU-Health-App-FYP/SHUHealthMonitor/Client/Pages/Admin/ViewPatients.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVmlld1BhdGllbnRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eva/Desktop/SHUHealthMonitor/SHUHealthMonitor/SHUHealthMonitor/Client/Pages/Index.razor]
+[C:/Users/Eva/Documents/University/Computer Science Year 3/Semester 2/FInal Year Project/SHU-Health-App-FYP/SHUHealthMonitor/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eva/Desktop/SHUHealthMonitor/SHUHealthMonitor/SHUHealthMonitor/Client/Pages/Login.razor]
+[C:/Users/Eva/Documents/University/Computer Science Year 3/Semester 2/FInal Year Project/SHU-Health-App-FYP/SHUHealthMonitor/Client/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eva/Desktop/SHUHealthMonitor/SHUHealthMonitor/SHUHealthMonitor/Client/Pages/Logout.razor]
+[C:/Users/Eva/Documents/University/Computer Science Year 3/Semester 2/FInal Year Project/SHU-Health-App-FYP/SHUHealthMonitor/Client/Pages/Logout.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eva/Desktop/SHUHealthMonitor/SHUHealthMonitor/SHUHealthMonitor/Client/Pages/Register.razor]
+[C:/Users/Eva/Documents/University/Computer Science Year 3/Semester 2/FInal Year Project/SHU-Health-App-FYP/SHUHealthMonitor/Client/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eva/Desktop/SHUHealthMonitor/SHUHealthMonitor/SHUHealthMonitor/Client/Pages/Users/Counter.razor]
+[C:/Users/Eva/Documents/University/Computer Science Year 3/Semester 2/FInal Year Project/SHU-Health-App-FYP/SHUHealthMonitor/Client/Pages/Users/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eva/Desktop/SHUHealthMonitor/SHUHealthMonitor/SHUHealthMonitor/Client/Shared/LoginDisplay.razor]
+[C:/Users/Eva/Documents/University/Computer Science Year 3/Semester 2/FInal Year Project/SHU-Health-App-FYP/SHUHealthMonitor/Client/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eva/Desktop/SHUHealthMonitor/SHUHealthMonitor/SHUHealthMonitor/Client/Shared/RedirectToLogin.razor]
+[C:/Users/Eva/Documents/University/Computer Science Year 3/Semester 2/FInal Year Project/SHU-Health-App-FYP/SHUHealthMonitor/Client/Shared/RedirectToLogin.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eva/Desktop/SHUHealthMonitor/SHUHealthMonitor/SHUHealthMonitor/Client/_Imports.razor]
+[C:/Users/Eva/Documents/University/Computer Science Year 3/Semester 2/FInal Year Project/SHU-Health-App-FYP/SHUHealthMonitor/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Eva/Desktop/SHUHealthMonitor/SHUHealthMonitor/SHUHealthMonitor/Client/Shared/MainLayout.razor]
+[C:/Users/Eva/Documents/University/Computer Science Year 3/Semester 2/FInal Year Project/SHU-Health-App-FYP/SHUHealthMonitor/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-6qzmchwxom
 
-[C:/Users/Eva/Desktop/SHUHealthMonitor/SHUHealthMonitor/SHUHealthMonitor/Client/Shared/NavMenu.razor]
+[C:/Users/Eva/Documents/University/Computer Science Year 3/Semester 2/FInal Year Project/SHU-Health-App-FYP/SHUHealthMonitor/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-o053t75fd5

@@ -39,7 +39,7 @@ namespace SHUHealthMonitor.Server.Controllers
 			await _userManager.AddToRoleAsync(newUser, "User");
 
 			// Add new users whose email starts with 'admin' to the Admin role
-			Regif (newUser.Email.StartsWith("admin"))
+			if (newUser.Email.StartsWith("admin"))
 			{
 				await _userManager.AddToRoleAsync(newUser, "Admin");
 			}

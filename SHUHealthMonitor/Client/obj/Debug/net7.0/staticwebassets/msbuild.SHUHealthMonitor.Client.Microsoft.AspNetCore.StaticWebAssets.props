@@ -265,7 +265,7 @@
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Alternative</AssetRole>
-      <RelatedAsset>M:\Downloads\Hosted_Blazor_WASM_Identity-master\Hosted_Blazor_WASM_Identity-master\SHUHealthMonitor\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js</RelatedAsset>
+      <RelatedAsset>C:\Users\Eva\Documents\University\Computer Science Year 3\Semester 2\FInal Year Project\SHU-Health-App-FYP\SHUHealthMonitor\Client\bin\Debug\net7.0\wwwroot\_framework\blazor.webassembly.js</RelatedAsset>
       <AssetTraitName>Content-Encoding</AssetTraitName>
       <AssetTraitValue>gzip</AssetTraitValue>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

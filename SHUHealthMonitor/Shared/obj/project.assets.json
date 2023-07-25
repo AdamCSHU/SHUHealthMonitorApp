@@ -623,11 +623,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eva\\Desktop\\SHUHealthMonitor\\SHUHealthMonitor\\SHUHealthMonitor\\Shared\\SHUHealthMonitor.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthMonitor\\Shared\\SHUHealthMonitor.Shared.csproj",
       "projectName": "SHUHealthMonitor.Shared",
-      "projectPath": "C:\\Users\\Eva\\Desktop\\SHUHealthMonitor\\SHUHealthMonitor\\SHUHealthMonitor\\Shared\\SHUHealthMonitor.Shared.csproj",
+      "projectPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthMonitor\\Shared\\SHUHealthMonitor.Shared.csproj",
       "packagesPath": "C:\\Users\\Eva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eva\\Desktop\\SHUHealthMonitor\\SHUHealthMonitor\\SHUHealthMonitor\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\Eva\\Documents\\University\\Computer Science Year 3\\Semester 2\\FInal Year Project\\SHU-Health-App-FYP\\SHUHealthMonitor\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Eva\\AppData\\Roaming\\NuGet\\NuGet.Config",
